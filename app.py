@@ -9,7 +9,7 @@ import re
 # STREAMLIT CONFIG
 st.set_page_config(page_title="AI Movie Recommender", layout="wide")
 
-TMDB_API_KEY = "YOUR_TMDB_API_KEY"
+TMDB_API_KEY = "858b753c5a8668245484bd49f654309f"
 
 # SAFE REQUEST FUNCTION
 def safe_request(url, retries=3, delay=1, timeout=5):
